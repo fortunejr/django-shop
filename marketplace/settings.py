@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9d(u%^fks2v&en!8i0xfkpw#89a6d3%h)ms$&)!w3bm$!gbb37
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'django-shop.onrender.com']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
